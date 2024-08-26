@@ -12,7 +12,7 @@
       <nav>
         <ul class="header__menu">
           <li><a class="header__link" href="#about">About</a></li>
-          <li><a class="header__link" href="#featured">Work</a></li>
+          <li><a class="header__link" href="#featured">Featured</a></li>
           <li><a class="header__link" href="#contact">Contact</a></li>
   
         <li class="header__line"></li>
@@ -25,7 +25,7 @@
           </button>
         </li>
         <li>
-          <a class="header__resume btn" href="#">Resume</a>
+          <a  target="_blank" class="header__resume btn" href="./public//Mobeen_Qasim_Resume_PDF.pdf">Resume</a>
         </li>
       </ul>
       <button class="header__bars">
@@ -42,9 +42,11 @@
         <h2 class="hero__subtitle">Hi, I'm Mobeen 🙋‍♂️</h2>
         <h1 class="hero__title">UI/UX Engineer</h1>
         <p class="hero__description">A passionate <strong>Frontend</strong>  web developer and  <strong>UI/UX </strong>enthusiast specialized in building stunning pixel-perfect interactive websites/applications.</p>
-        <a class="hero__btn btn" href="">Reach out</a>
+        <a class="hero__btn btn" 
+        target="_blank"
+        href="mailto:mobeenqwork@gmail.com">Reach out</a>
       </section>
-      <section class="about container section">
+      <section id="about" class="about container section">
           <div class="about__content">
             <h2 class="about__title">About</h2>
             <p class="about__description">Hello there! I'm Mobeen, a <strong> Frontend / UI/UX</strong> web developer based near Toronto. I wake up in the morning, grab a cup of coffee, open up my laptop and build things that live on the web all day, everyday.</p>
@@ -72,7 +74,7 @@
             <img class="about__img" src="/Profile.png" alt="Profile Picture">
           </div>
       </section>
-      <section class="featured container section">
+      <section id="featured" class="featured container section">
         <h3 class="featured__subtitle">Featured project</h3>
         <div class="featured__wrapper">
           <h2 class="featured__title">Pipeline Homepage</h2>
@@ -166,7 +168,7 @@
       </div>
        
       </section>
-      <section class="work container section">
+      <section id="work" class="work container section">
         <h2 class="work__title">Projects</h2>
         <p class="work__description">
           This section highlights the diverse projects I coded and developed using various programming languages.
@@ -253,9 +255,16 @@
             <a  target="_blank" class="btn work__project-btn" href="https://hilink-lake.vercel.app/">Website</a>
           </div>
       </section>
-      <!-- <section></section> -->
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Get In Contact</h2>
+        <p class="contact__description">Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open so feel free to reach out and I will get back to you as soon as possible.</p>
+        <a href="mailto:mobeenqwork@gmail.com" 
+        target="_blank" class="contact__btn btn">Reach Out</a>
+      </section>
     </main>
-    <!-- <footer></footer> -->
+    <footer class="footer container section">
+      <h3 class="footer__title">~ Mobeen Qasim ~</h3>
+    </footer>
    
     <script type="module" src="./src/main.js"></script>
   </body>

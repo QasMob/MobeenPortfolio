@@ -15,3 +15,6 @@ mobileNav();
 
 import darkMode from './utils/dark-mode';
 darkMode();
+
+import lazyLoading from './utils/lazy-loading';
+lazyLoading();

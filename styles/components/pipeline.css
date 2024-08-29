@@ -14,8 +14,6 @@
 }
 
 
-
-
 .figma-embed {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;  /* Set to 100% for responsive width */
@@ -24,6 +22,8 @@
   margin: 0 auto; /* Center the iframe */
   display: block; /* Ensure it's displayed as a block */
 }
+
+
 
 
 .brand-identity__text {
@@ -35,7 +35,6 @@
   margin-top: 1.5rem;
   /* scale: 1.1; */
 }
-
 
 .design-goal {
   margin-top: 3rem;
@@ -191,6 +190,7 @@
   line-height: 1.8;
   margin-bottom: var(--size-lg);
   color: var(--clr-slate600);
+  text-align: center;
 }
 
 .problem-statement__list {

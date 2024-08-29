@@ -105,27 +105,32 @@
     
       <!-- Problem Statement and Design Goals -->
       <section class="container problem-statement">
-        <h3 class="problem-statement__title">Problem Statement & Design Goals</h3>
+        <h3 class="problem-statement__title">Problem Statement</h3>
         <p class="problem-statement__text">
           The old design of the "Pipeline to Success" website presented several challenges that affected user engagement and navigation. The primary issues were:
         </p>
         <ul class="problem-statement__list">
-          <li class="problem-statement__list-item"><strong>Cluttered Navigation:</strong> Users found it hard to locate important information due to a disorganized layout.</li>
+          <li class="problem-statement__list-item"><strong>Cluttered Navigation:</strong> Users found it hard to locate important information due to a disorganized layout, involving each section having with their own HTML document.</li>
           <li class="problem-statement__list-item"><strong>Lack of Visual Hierarchy:</strong> Text-heavy pages made it difficult for users to quickly grasp key content.</li>
           <li class="problem-statement__list-item"><strong>Poor User Engagement:</strong> The old design lacked interactive elements that could keep users engaged and encourage them to take action.</li>
         </ul>
-        <p class="problem-statement__text design-goal"><strong>Design Goals:</strong> To address these issues, the redesign focused on the following goals:</p>
-        <ul class="problem-statement__list">
-          <li class="problem-statement__list-item"><strong>Simplified Navigation:</strong> Creating a more organized and accessible menu structure to improve user experience.</li>
-          <li class="problem-statement__list-item"><strong>Enhanced Visual Hierarchy:</strong> Utilizing clear headings, subheadings, and visual elements to make key information stand out.</li>
-          <li class="problem-statement__list-item"><strong>Improved User Engagement:</strong> Introducing interactive elements, such as call-to-action buttons, to encourage users to participate in programs and join the community.</li>
-        </ul>
+       <div class="prob">
+        <h3 class="problem-statement__title design-goal">Design Goals</h3>
+        <div>
+          <p class="problem-statement__text">To address these issues, the redesign focused on the following goals:</p>
+          <ul class="problem-statement__list">
+            <li class="problem-statement__list-item"><strong>Simplified Navigation:</strong> Creating a more organized and accessible menu structure to improve user experience, and allowing all content to be on a single one page application (homepage) instead of multiple HTML documents</li>
+            <li class="problem-statement__list-item"><strong>Enhanced Visual Hierarchy:</strong> Utilizing clear headings, subheadings, and visual elements to make key information stand out.</li>
+            <li class="problem-statement__list-item"><strong>Improved User Engagement:</strong> Introducing interactive elements, such as call-to-action buttons, to encourage users to participate in programs and join the community.</li>
+          </ul>
+        </div>
+       </div>
       </section>
       
       <!-- Old Design Analysis Section -->
       <section class="container old-design-analysis">
        <div class="old-design-top">
-        <h2 class="old-design-analysis__title">Old Design Analysis: Pipeline to Success Website</h2>
+        <h2 class="old-design-analysis__title"><strong>Old Design Analysis: </strong> Pipeline to Success Website</h2>
         <p class="old-design-analysis__text">
           The old design of the "Pipeline to Success" website had several usability and visual design issues that affected user engagement and navigation. Below are screenshots of the old design along with a detailed analysis of the problems identified in each section:
         </p>
@@ -229,7 +234,7 @@
       <section class="container section wireframes">
         <h2 class="wireframes__title">Wireframe</h2>
         <p class="wireframes__text">
-          Low-fidelity wireframes were created to illustrate the new layout and user flow. Key design decisions, such as navigation placement, CTAs, and content sections, were strategically planned to enhance the user experience.
+          Low-fidelity wireframes were created to illustrate the new layout. Key design decisions, such as navigation placement, CTAs, and content sections, were strategically planned to enhance the user experience.
         </p>
         <div class="image-container">
           <!-- <img class="image-container__image" src="/public/Wireframe Pipeline.png" loading="lazy" alt="Wireframes" /> -->
@@ -265,7 +270,17 @@
     
       <!-- Outcome and Impact -->
       <section class="container section outcome-impact">
+        <div class="featured__wrapper outcome-cont">
         <h2 class="outcome-impact__title">Outcome & Impact</h2>
+        <a href="https://pipeline-project.vercel.app/#homePage" target="_blank" class="featured__link"
+        aria-label="link featured project"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+          </svg>
+          
+        </a>
+      </div>
         <p class="outcome-impact__text">
           The redesign resulted in improved user engagement metrics, such as increased time on site, reduced bounce rates, and positive feedback from users and stakeholders.
         </p>

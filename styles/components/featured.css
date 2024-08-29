@@ -11,6 +11,10 @@
   gap: 1rem;
 }
 
+.featured__btn {
+  margin-bottom: 2rem;
+}
+
 .featured__title {
   font-size: var(--size-2xl);
   color: var(--clr-light);

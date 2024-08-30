@@ -105,24 +105,46 @@
     
       <!-- Problem Statement and Design Goals -->
       <section class="container problem-statement">
-        <h3 class="problem-statement__title">Problem Statement</h3>
+        <h3 class="problem-statement__title">Problem Statement❗</h3>
         <p class="problem-statement__text">
           The old design of the "Pipeline to Success" website presented several challenges that affected user engagement and navigation. The primary issues were:
         </p>
         <ul class="problem-statement__list">
-          <li class="problem-statement__list-item"><strong>Cluttered Navigation:</strong> Users found it hard to locate important information due to a disorganized layout, involving each section having with their own HTML document.</li>
-          <li class="problem-statement__list-item"><strong>Lack of Visual Hierarchy:</strong> Text-heavy pages made it difficult for users to quickly grasp key content.</li>
-          <li class="problem-statement__list-item"><strong>Poor User Engagement:</strong> The old design lacked interactive elements that could keep users engaged and encourage them to take action.</li>
+          <li class="problem-statement__list-item">
+            <strong>Cluttered Navigation:</strong> The disorganized layout made it difficult for users to find important information, with each section split into separate HTML documents, resulting in a fragmented and confusing user journey.
+          </li>
+          
+          <li class="problem-statement__list-item">
+            <strong>Absence of Visual Cues and Community Connection:</strong> The lack of images, icons, and visual elements made the website feel cold and uninviting. Without relatable visuals, such as images of students, campus life, or university landmarks, the site failed to foster a sense of community, leaving it feeling empty and disconnected.
+          </li>
+          
+          <li class="problem-statement__list-item">
+            <strong>Lack of Visual Hierarchy:</strong> The text-heavy design buried key content, making it hard for users to quickly understand and navigate the information presented.
+          </li>
+          
+          <li class="problem-statement__list-item">
+            <strong>Poor User Engagement:</strong> The absence of interactive elements left users without incentives to explore further, resulting in low engagement and minimal action-taking on the site.
+          </li>
         </ul>
+        
        <div class="prob">
-        <h3 class="problem-statement__title design-goal">Design Goals</h3>
+        <h3 class="problem-statement__title design-goal">Design Goals 🧑‍🎨</h3>
         <div>
           <p class="problem-statement__text">To address these issues, the redesign focused on the following goals:</p>
           <ul class="problem-statement__list">
-            <li class="problem-statement__list-item"><strong>Simplified Navigation:</strong> Creating a more organized and accessible menu structure to improve user experience, and allowing all content to be on a single one page application (homepage) instead of multiple HTML documents</li>
-            <li class="problem-statement__list-item"><strong>Enhanced Visual Hierarchy:</strong> Utilizing clear headings, subheadings, and visual elements to make key information stand out.</li>
-            <li class="problem-statement__list-item"><strong>Improved User Engagement:</strong> Introducing interactive elements, such as call-to-action buttons, to encourage users to participate in programs and join the community.</li>
+            <li class="problem-statement__list-item">
+              <strong>Simplified Navigation:</strong> Streamlining the menu structure into a unified, single-page application to provide a seamless and intuitive user experience, eliminating the need to jump between multiple HTML documents.
+            </li>
+            
+            <li class="problem-statement__list-item">
+              <strong>Enhanced Visual Hierarchy:</strong> Implementing clear headings, subheadings, and strategically placed visual elements to highlight key content, making information easy to scan and understand at a glance.
+            </li>
+            
+            <li class="problem-statement__list-item">
+              <strong>Improved User Engagement:</strong> Integrating interactive elements like call-to-action buttons and dynamic content to actively involve users, guiding them to explore programs, connect with the community, and take meaningful actions.
+            </li>
           </ul>
+          
         </div>
        </div>
       </section>
@@ -268,6 +290,46 @@
         <a class="prototype__link" href="https://pipeline-project.vercel.app/#homePage" target="_blank">View Interactive Prototype</a>
       </section> -->
     
+
+      <!-- Accessibility Considerations Section -->
+<section class="container section problem-statement" aria-labelledby="accessibility-title">
+  <h2 class="high-fidelity__title">Accessibility Considerations</h2>
+  <p class=" access-description">
+    Accessibility is a crucial aspect of modern web design, ensuring that all users, including those with disabilities, can navigate and interact with the website effectively. During the redesign of the "Pipeline to Success" homepage, several key accessibility enhancements were made to align with Web Content Accessibility Guidelines (WCAG) and improve the overall user experience.
+  </p>
+
+  <ul class="problem-statement__list">
+    <li class="problem-statement__list-item">
+      <strong>Semantic HTML Structure:</strong> The website's structure was updated with semantic HTML tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;footer&gt;</code>, which improve the document's readability for screen readers and assistive technologies.
+    </li>
+    <li class="problem-statement__list-item">
+      <strong>ARIA Roles and Attributes:</strong> ARIA (Accessible Rich Internet Applications) roles and attributes were added to interactive elements, such as buttons and navigation menus, providing additional context and functionality for users relying on screen readers.
+    </li>
+    <li class="problem-statement__list-item">
+      <strong>Keyboard Navigation Support:</strong> The redesigned website ensures full keyboard accessibility, allowing users to navigate through interactive elements using the tab, enter, and arrow keys. This is particularly important for users with motor impairments.
+    </li>
+    <li class="problem-statement__list-item">
+      <strong>Color Contrast and Readability:</strong> A high-contrast color scheme was implemented to improve text readability for users with visual impairments, ensuring compliance with WCAG contrast ratio requirements. I ensured that all text and interactive elements meet a minimum color contrast ratio of 4.5:1, with large text achieving at least a 3:1 contrast ratio, enhancing readability and accessibility for users with visual impairments.
+      <img src="/contrast.png" alt="color-contrast image" 
+       class="contrast-img"
+      loading="lazy"
+      >
+    </li>
+    <li class="problem-statement__list-item">
+      <strong>Alt Text for Images:</strong> Meaningful and descriptive alt texts were added to all images, providing detailed descriptions for users who rely on screen readers or have images disabled.
+    </li>
+    <li class="problem-statement__list-item">
+      <strong>Mobile Responsiveness:</strong> The website was optimized to be fully responsive, ensuring accessibility across various screen sizes and devices, including mobile phones and tablets.
+    </li>
+  
+  </ul>
+
+  <p class=" access-description2">
+    These accessibility improvements not only make the website more inclusive but also enhance the overall user experience by making the site easier to navigate, read, and interact with for all users. The commitment to accessibility ensures that "Pipeline to Success" is accessible to a diverse audience, fulfilling its mission of providing career-relevant opportunities to every student.
+  </p>
+</section>
+
+
       <!-- Outcome and Impact -->
       <section class="container section outcome-impact">
         <div class="featured__wrapper outcome-cont">
@@ -282,7 +344,7 @@
         </a>
       </div>
         <p class="outcome-impact__text">
-          The redesign resulted in improved user engagement metrics, such as increased time on site, reduced bounce rates, and positive feedback from users and stakeholders.
+          The redesign led to a significant boost in user engagement and received positive feedback from both users and stakeholders.
         </p>
         <img class="outcome-impact__image" src="/public/feedback.png" loading="lazy" alt="feedback">
       </section>

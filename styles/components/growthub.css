@@ -1,0 +1,8 @@
+.mockup {
+  display: flex; 
+  /* border: 2px solid red; */
+}
+
+.mockup_screen {
+  width: 20rem;
+}

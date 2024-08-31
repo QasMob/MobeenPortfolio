@@ -112,7 +112,7 @@
   
 }
 
-img {
+.img {
   border: 2.5px solid var(--clr-slate600);
 }
 
@@ -618,3 +618,5 @@ img {
     max-width: 600px; /* Smaller for very large screens */
   }
 }
+
+

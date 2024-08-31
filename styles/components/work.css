@@ -104,6 +104,10 @@
   }
 }
 
+.work__content5 {
+  margin-top: 5rem;
+}
+
 /* sm */
 @media (min-width: 640px) {
 
@@ -122,10 +126,6 @@
     place-items: center;
   }
 
-
-  .work__content5 {
-    margin-top: 0;
-  }
   
 
   .work__image1 {
@@ -212,10 +212,6 @@
 @media (min-width: 768px) {
   .work__project-description1 {
     font-size: var(--size-sm);
-  }
-
-  .work__content5 {
-    margin-top: 0;
   }
   
 

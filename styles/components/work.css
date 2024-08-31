@@ -7,6 +7,12 @@
   color: var(--clr-light);
 }
 
+
+.work__content5 {
+  margin-top: 5rem;
+}
+
+
 .work__description {
   max-width: 60ch;
   font-size: var(--size-sm);
@@ -47,6 +53,10 @@
   font-size: var(--size-sm);
   color: var(--clr-slate600);
   margin: 1rem 0;
+}
+
+.growthHub {
+  display: flex;
 }
 
 .work__project-description2 {
@@ -96,6 +106,9 @@
 
 /* sm */
 @media (min-width: 640px) {
+
+
+  
   .work__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -108,6 +121,12 @@
       'content6 image6';
     place-items: center;
   }
+
+
+  .work__content5 {
+    margin-top: 0;
+  }
+  
 
   .work__image1 {
     grid-area: image1;
@@ -194,6 +213,11 @@
   .work__project-description1 {
     font-size: var(--size-sm);
   }
+
+  .work__content5 {
+    margin-top: 0;
+  }
+  
 
   .work__project-description2 {
     font-size: var(--size-sm);

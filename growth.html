@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+    <meta name="description" content="Mobeen Portfolio Website">
+    <meta name="keywords" content="ui/ux, frontend, web design, html, css, javascript">
+    <title>Mobeen Portfolio</title>
+</head>
+<body>
+    <!-- Pipeline Header -->
+    <header class="header container pipeline-header">
+        <nav>
+            <ul class="header__menu">
+                <li><a class="header__link" href="/index.html">Home</a></li>
+                <li><a class="header__link" href="index.html/#about">About</a></li>
+                <li><a class="header__link" href="index.html/#featured">Featured</a></li>
+                <li><a class="header__link" href="index.html/#contact">Contact</a></li>
+                <li class="header__line"></li>
+                <li>
+                    <button aria-label="theme-toggle button" id="theme-toggle" class="header__sun pipeline-theme-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                        </svg>
+                    </button>
+                </li>
+                <li>
+                    <a target="_blank" class="header__resume btn pipeline-btn" href="./public/Mobeen_Qasim_Resume_PDF.pdf">Resume</a>
+                </li>
+            </ul>
+            <!-- Mobile Navigation button -->
+            <button aria-label="mobile navigation button" class="header__bars pipeline-mobile-bars">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav pipeline-mobile-nav">
+        <nav>
+            <ul class="mobile-nav__menu">
+                <li><a class="mobile-nav__link" href="/index.html">Home</a></li>
+                <li><a class="mobile-nav__link" href="/index.html/#about">About</a></li>
+                <li><a class="mobile-nav__link" href="index.html/#featured">Featured</a></li>
+                <li><a class="mobile-nav__link" href="index.html/#contact">Contact</a></li>
+                <li class="mobile-nav__link-line"></li>
+                <li>
+                    <button aria-label="theme-toggle button" id="theme-toggle" class="mobile-nav__sun pipeline-theme-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM18.894 6.166a.75.75 0 0 0-1.06-1.06l-1.591 1.59a.75.75 0 1 0 1.06 1.061l1.591-1.59ZM21.75 12a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5H21a.75.75 0 0 1 .75.75ZM17.834 18.894a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 1 0-1.061 1.06l1.59 1.591ZM12 18a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-1.5 0v-2.25A.75.75 0 0 1 12 18ZM7.758 17.303a.75.75 0 0 0-1.061-1.06l-1.591 1.59a.75.75 0 0 0 1.06 1.061l1.591-1.59ZM6 12a.75.75 0 0 1-.75.75H3a.75.75 0 0 1 0-1.5h2.25A.75.75 0 0 1 6 12ZM6.697 7.757a.75.75 0 0 0 1.06-1.06l-1.59-1.591a.75.75 0 0 0-1.061 1.06l1.59 1.591Z" />
+                        </svg>
+                    </button>
+                </li>
+                <li><a class="mobile-nav__btn btn pipeline-btn" href="./public/Mobeen_Qasim_Resume_PDF.pdf">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- End of Mobile Navigation -->
+
+    <main class="pipeline-main">
+        <!-- Introduction -->
+        <section class="container introduction pipeline-section">
+            <h2 class="introduction__title pipeline-title"><strong>GrowthHub</strong></h2>
+            <p class="introduction__text pipeline-text">
+                A self-improvement app that creates a more personalized experience for different users.
+            </p>
+        </section>
+
+        <!-- Mockup Screens Section -->
+        <section class="mockup container pipeline-section">
+            <img src="Assets/growthhub_mockup_one.png" alt="mockup homescreen" class="mockup_screen pipeline-img" />
+            <img src="Assets/growthhub_mockup_two.png" alt="mockup discoveryscreen" class="mockup_screen pipeline-img" />
+            <img src="Assets/growthhub_mockup_three.png" alt="mockup joingroupscreen" class="mockup_screen pipeline-img" />
+            <img src="Assets/growthhub_mockup_four.png" alt="mockup communitiesscreen" class="mockup_screen pipeline-img" />
+            <img src="Assets/growthhub_mockup_five.png" alt="mockup chatscreen" class="mockup_screen pipeline-img" />
+        </section>
+
+        <!-- Problem and Solution Section -->
+        <section class="problem-solution container pipeline-section">
+            <h2 class="problem-solution__title pipeline-title">Problem</h2>
+            <p class="problem-solution__text pipeline-text">
+                Numerous self-improvement applications focus on aspects like goal setting and meditation, but they often lack a sense of community that can offer solace to individuals who may experience feelings of loneliness during their journey of personal growth.
+            </p>
+            <h2 class="problem-solution__title pipeline-title">Solution</h2>
+            <p class="problem-solution__text pipeline-text">
+                Develop a platform dedicated to self-improvement, providing a vibrant hub where individuals on their personal growth journey can connect with one another in real-time, share experiences, exchange tips, and feel a stronger sense of community.
+            </p>
+        </section>
+
+        <!-- Research Section -->
+        <section class="research container pipeline-section">
+            <h2 class="research__title pipeline-title">Research</h2>
+            <div class="research__methods">
+                <button class="btn pipeline-btn">Competitor Analysis</button>
+                <button class="btn pipeline-btn">Guerilla Research</button>
+                <button class="btn pipeline-btn">User Personas</button>
+            </div>
+            <h3 class="research__subtitle pipeline-subtitle">Competitor Analysis</h3>
+            <p class="research__text pipeline-text">
+                Competitor analysis was conducted to understand key features and issues from similar self-improvement apps, Headspace and Clarity. This helped identify what users were looking for in an app, whether it’s UI changes or new features.
+            </p>
+            <img src="Assets/researchgrowth1.png" alt="Competitor Analysis Timeline" class="research__image pipeline-img" />
+
+            <h3 class="research__subtitle pipeline-subtitle">Guerilla Research</h3>
+            <p class="research__text pipeline-text">
+                User reviews from the App Store provided insights into user concerns about UI and features, offering a baseline understanding of pain points and guiding the app's structure and Information Architecture development.
+            </p>
+            <img src="Assets/appv2.png" alt="Guerilla Research Image" class="research__image pipeline-img" />
+
+            <h3 class="research__subtitle pipeline-subtitle">Research Takeaways</h3>
+            <img src="Assets/growthlogo.PNG" alt="Research Takeaways Image" class="research__image pipeline-img" />
+
+            <h3 class="research__subtitle pipeline-subtitle">User Persona</h3>
+            <p class="research__text pipeline-text">
+                Findings were summarized into user personas, identifying common pain points and needs for stakeholders of this app.
+            </p>
+            <img src="Assets/alexho.PNG" alt="User Persona Image" class="research__image pipeline-img" />
+        </section>
+
+        <!-- Ideating Section -->
+        <section class="ideating container pipeline-section">
+            <h2 class="ideating__title pipeline-title">Ideating</h2>
+            <div class="ideating__methods">
+                <button class="btn pipeline-btn">Taskflows/Userflows</button>
+                <button class="btn pipeline-btn">Low-fidelity Wireframes</button>
+            </div>
+
+            <h3 class="ideating__subtitle pipeline-subtitle">Task Flow / User Flow</h3>
+            <iframe class="ideating__iframe pipeline-iframe" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FLEsPOBR0N5OjN88LAOhr80%2FTask-Flow-GrowthHub%3Ftype%3Dwhiteboard%26node-id%3D0%253A1%26t%3Dv4AsKENfzxcjJoLs-1" allowfullscreen></iframe>
+            <p class="ideating__text pipeline-text">
+                Task flow mapping helped identify possible screens and steps users would need to take to complete tasks, aiding the development of the final user flow document.
+            </p>
+
+            <h3 class="ideating__subtitle pipeline-subtitle">Low-fidelity Wireframes</h3>
+            <div class="ideating__images">
+                <img src="Assets/lowone.PNG" alt="Low-fidelity Wireframe 1" class="ideating__image pipeline-img" />
+                <img src="Assets/low2.PNG" alt="Low-fidelity Wireframe 2" class="ideating__image pipeline-img" />
+                <img src="Assets/low3.PNG" alt="Low-fidelity Wireframe 3" class="ideating__image pipeline-img" />
+            </div>
+            <p class="ideating__text pipeline-text">
+                Low-fidelity Wireframes were created to outline the overall layout of the app, setting the foundation for High-fidelity Wireframes.
+            </p>
+        </section>
+
+        <!-- Final Designs Section -->
+        <section class="final-designs container pipeline-section">
+            <h2 class="final-designs__title pipeline-title">Final Designs</h2>
+            <div class="final-designs__methods">
+                <button class="btn pipeline-btn">Brand Identity</button>
+                <button class="btn pipeline-btn">High-fidelity Wireframes</button>
+            </div>
+
+            <h3 class="final-designs__subtitle pipeline-subtitle">Brand Identity</h3>
+            <p class="final-designs__text pipeline-text">
+                A clean and simple UI was chosen, using an analogous color scheme with blues representing trust and greens symbolizing growth and peace. Consistency in color and design elements was maintained to provide a cohesive user experience.
+            </p>
+            <img src="Assets/brandidentity.PNG" alt="Brand Identity" class="final-designs__image pipeline-img" />
+
+            <h3 class="final-designs__subtitle pipeline-subtitle">High-fidelity Wireframes</h3>
+            <div class="final-designs__images">
+                <img src="Assets/onboard.PNG" alt="High-fidelity Wireframe 1" class="final-designs__image pipeline-img" />
+                <img src="Assets/Signup.PNG" alt="High-fidelity Wireframe 2" class="final-designs__image pipeline-img" />
+                <img src="Assets/browse.PNG" alt="High-fidelity Wireframe 3" class="final-designs__image pipeline-img" />
+                <img src="Assets/community.PNG" alt="High-fidelity Wireframe 4" class="final-designs__image pipeline-img" />
+            </div>
+            <p class="final-designs__text pipeline-text">
+                The High-fidelity Wireframes focused on visual hierarchy, accessibility, and enhancing the overall user experience.
+            </p>
+        </section>
+
+        <!-- User Feedback Section -->
+        <section class="feedback container pipeline-section">
+            <h2 class="feedback__title pipeline-title">User Feedback</h2>
+            <div class="feedback__methods">
+                <button class="btn pipeline-btn">A/B Testing</button>
+                <button class="btn pipeline-btn">Usability Testing</button>
+            </div>
+            <h3 class="feedback__subtitle pipeline-subtitle">A/B Testing</h3>
+            <iframe class="feedback__iframe pipeline-iframe" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fsm3Vb9Gt7pCPzu6MZ5vaPa%2FGrowthHub-A%252FB-Testing%3Ftype%3Ddesign%26node-id%3D0%253A1%26mode%3Ddesign%26t%3DLUvlSyqBMemk26W2-1" allowfullscreen></iframe>
+            <p class="feedback__text pipeline-text">
+                A/B Testing with potential users provided feedback that enhanced user accessibility and usability, leading to a more impactful user experience.
+            </p>
+
+            <h3 class="feedback__subtitle pipeline-subtitle">Final Prototype</h3>
+            <iframe class="feedback__iframe pipeline-iframe" src="https://www.figma.com/proto/kBwgQDawltsJOUZ9Wuk1uz/GrowthHub?embed_host=share&kind=&node-id=1-498&page-id=1%3A2&scaling=min-zoom&starting-point-node-id=1%3A498" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer container section pipeline-footer">
+        <h3 class="footer__title pipeline-title">~ Mobeen Qasim ~</h3>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

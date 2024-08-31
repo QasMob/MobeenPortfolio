@@ -8,6 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         pipeline: resolve(__dirname, 'pipeline.html'),
+        growth: resolve(__dirname, 'growth.html')
       },
     },
   },

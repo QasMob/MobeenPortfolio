@@ -42,17 +42,7 @@
 
 /* sm */
 @media (min-width: 640px){
-  .mockup {
-    display: flex; 
-    /* border: 2px solid red; */
-    justify-content: center;
-    flex-wrap: wrap;
-    overflow-x: hidden;
-  }
-  
-  .mockup_screen {
-    width: 15rem;
-  }
+
 
   .growth-problem {
     max-width: 75ch;
@@ -71,10 +61,20 @@
 }
 
 /* md */
-/* @media (min-width: 768px){
+@media (min-width: 768px){
+  .mockup {
+    display: flex; 
+    /* border: 2px solid red; */
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+  
+  .mockup_screen {
+    width: 15rem;
+  }
 
-
-} */
+}
 
 /* lg */
 /* @media (min-width: 1024px){
